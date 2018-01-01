@@ -59,6 +59,8 @@ App = {
 
       // Listen to events
       App.listenToEvents();
+// figure out why the event change doesn't refresh the front end.
+
 
       return App.reloadArticles();
     });    
